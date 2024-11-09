@@ -1,0 +1,47 @@
+* {
+    margin: 0; /*Sin margen*/
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: white;
+    display: flex; /*Permite que los elementos sean flex (flexibles)*/
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+}
+
+form{
+    background: white;
+    color: black;
+    border-radius: 5px; /*Le da curvatura a las puntas*/
+    box-shadow: 19px 19px 8px -9px rgb(29, 29, 29); /*Crea una sombra*/
+    overflow: hidden;
+    width: 300px;
+    max-width: 100%;
+}
+
+h2{
+    background: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-align: center;
+    border-bottom: 1px solid white;
+    padding: 20px 40px;
+}
+
+label{
+    display: inline-block;
+    margin-bottom: 7px;
+    font: wight 200px;
+}
+
+button{
+    background-color: black;
+    color: white;
+    margin: 2px;
+    margin-bottom: 5px;
+    width: 100px;
+}

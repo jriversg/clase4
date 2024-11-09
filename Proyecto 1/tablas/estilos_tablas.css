@@ -1,0 +1,37 @@
+#principal{
+    background-color: rgb(10, 10, 61);
+    color: white;
+    font-style: italic;
+    font-size: 25px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td{
+    padding: 4px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+th{
+    background-color: rgb(33, 33, 161);
+    color: white;
+    padding: 4px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 20px;
+}
+
+.clase1{
+    background-color: rgb(183, 183, 241);
+}
+.clase2{
+    background-color: rgb(23, 23, 37);
+    color: white;
+}
+.clase3{
+    background-color: rgb(21, 21, 22);
+    color: white;
+}

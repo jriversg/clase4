@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style_form.css">
+</head>
+<body>
+    <form method="get">
+        <h2>Formulario de Inscirpción</h2>
+        <label for="name">Nombre: </label>
+        <input type="tex" id="name" name="Nombre" placeholder="Escribe tu nombre..." required>
+        <br>
+
+        <label for="email">Correo Electronico: </label>
+        <input type="email" id="email"  name="Correo Electronico" placeholder="Escribe tu correo electronico..." required>
+        <br>
+
+        <label for="paswword">Contraseña: </label>
+        <input type="password" id="password" name="password" placeholder="Escriba su contraseña..." required>
+        <br>
+
+        <label for="genero">Genero: </label>
+        <input type="radio" name="genero" value="masculino">Masculino
+        <input type="radio" name="genero" value="femenino">Femenino
+        <br>
+
+        <label for="intereses">Intereses: </label>
+        <input type="checkbox" name="intereses" value="deportes">Deportes
+        <input type="checkbox" name="intereses"  value="musica">Musica
+        <input type="checkbox" name="intereses"  value="lectura">Lectura
+        <br>
+
+        <label for="pais">Pais: </label>
+        <select name="pais" id="pais">
+            <option value="colombia">Colombia</option>
+            <option value="argentina">Argentina</option>
+            <option value="usa">Estados Unidos</option>
+            <option value="españa">España</option>
+        </select>
+        <br>
+
+        <label for="mensaje">Mensaje: </label>
+        <textarea name="mensaje" id="mensaje" rows="4" cols="30" placeholder="Escriba un texto..."></textarea>
+        <br>
+        
+        <button type="submit">Enviar Formulario</button>
+        <button type="reset">Reiniciar Formulario</button>
+    </form>
+
+
+    
+</body>
+</html>

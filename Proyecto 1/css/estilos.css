@@ -1,0 +1,84 @@
+/*Selector de elemento*/
+h1{
+    color: red; /*Cambiamos el color a el titulo 1*/
+    font-size: 36px; /*Cambiamos el tamaño del titulo*/
+    background-color: blueviolet; /*Relleno de fondo*/
+    text-align: center;
+}
+
+h2{
+    color: green;
+    background-color: black;
+    font-size: 30px;
+    text-align: center;
+}
+
+/*Selector de ID: Se le da a un selector un ID, para diferenciarlos de los demas parametros que tengan el mismo nombre*/
+#P1{
+    color: yellowgreen;
+}
+
+#P3{
+    color: orangered;
+}
+
+#P2,#P4{
+    color: blueviolet;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+/*Selector de clase: a diferencia del ID, la clase se le puede adicionar a cualquier selector*/
+.clase1{
+    color: white;
+}
+
+.primeros{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 15px;
+    font-size: 20px;
+    padding: 20px;
+    border: 2px solid rgb(147, 28, 163);
+}
+.contenedor{
+    font-size: 20px;
+    width: auto;
+    height: 30px;
+    background-color: lightblue;
+    text-align: center;
+}
+
+.secundarios{
+    font-size: 20px;
+    width: auto;
+    height: auto;
+    margin: 10px;
+    border: 3px solid yellow;
+    text-align: center;
+}
+
+/*Fondo de un elemento: Para este caso en especial, le aplicamos un fondo a todo el cuerpo de la pagina web*/
+
+p{
+    color: blueviolet;
+}
+
+.principal{
+    color: blue;
+}
+/*Mayor jerarquia id*/
+#princi{
+    color: black;
+}
+
+img{
+    width: 50%;
+    height: 90px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
